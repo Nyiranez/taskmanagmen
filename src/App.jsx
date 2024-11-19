@@ -16,7 +16,7 @@ const App = () => {
       completed: false,
       priority: priority,
     };
-    setTaskTodo((taskTodo) => [...taskTodo, newTask]);
+    setTaskTodo( [...taskTodo, newTask]);
     setTask("");
     setPriority("");
     setCounterId(counterId + 1);
